@@ -8,5 +8,10 @@ var vegetables = ['carrot', 'tomato', 'pepper', 'lettuce'];
 
 // ! Remove the first item from the fruit array.
 
-fruit.shift();
-console.log(fruit);
+// fruit.shift();
+// console.log(fruit);
+
+// ! Find the index of "orange."
+
+const indexOfOrange = fruit.indexOf('orange');
+console.log(indexOfOrange);
