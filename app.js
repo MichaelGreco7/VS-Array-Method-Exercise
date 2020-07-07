@@ -27,5 +27,10 @@ var vegetables = ['carrot', 'tomato', 'pepper', 'lettuce'];
 
 // ! Add that number to the end of the vegetable array.
 
-vegetables.push('4');
-console.log(vegetables);
+// vegetables.push('4');
+// console.log(vegetables);
+
+// ! Put the two arrays together into one array. Fruit first. Call the new Array "food".
+
+const food = fruit.concat(vegetables);
+console.log(food);
