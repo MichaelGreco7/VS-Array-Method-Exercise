@@ -13,5 +13,10 @@ var vegetables = ['carrot', 'tomato', 'pepper', 'lettuce'];
 
 // ! Find the index of "orange."
 
-const indexOfOrange = fruit.indexOf('orange');
-console.log(indexOfOrange);
+// const indexOfOrange = fruit.indexOf('orange');
+// console.log(indexOfOrange);
+
+// ! Add that number to the end of the fruit array.
+
+fruit.push('2');
+console.log(fruit);
