@@ -18,5 +18,9 @@ var vegetables = ['carrot', 'tomato', 'pepper', 'lettuce'];
 
 // ! Add that number to the end of the fruit array.
 
-fruit.push('2');
-console.log(fruit);
+// fruit.push('2');
+// console.log(fruit);
+
+// ! Use the length property to find the length of the vegetable array.
+
+console.log(vegetables.length);
